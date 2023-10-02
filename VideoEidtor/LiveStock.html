@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroMoni.com</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="AgroMoni.css">
+</head>
+<body>
+
+    <!-- THIS IS THE NAVBAR SECTION  -->
+    <div class="header-container">
+        <div class="nav-bar">
+            <div class="img-logo">
+                <img src="images/datalogo1.png" alt="logo image not found ?">
+                <span>AgroMoni</span>
+            </div>
+            <div class="nav-listItem">
+                <ul>
+                    <li class="active"> <a href="index.html"> home </a> </li>
+                    <li> <a href="AgriBusiness.html"> agriBusiness guide </a> </li>
+                    <li> <a href="healthTips.html"> health tips </a> </li>
+                    <li> <a href="eBook.html"> eBook </a> </li>
+                    <li> <a href="pets.html"> pets </a> </li>
+                    <li> <a href="Events.html"> event/opportunities </a> </li>
+                    <li> <a href="#"> more </a>
+                        <div class="sub-more">
+                            <ul>
+                                <li> <a href="crops.html">crops</a> </li>
+                                <li> <a href="Poultry.html">poultry</a> </li>
+                                <li> <a href="LiveStock.html">other livestock </a> </li>
+                                <li> <a href="proEquipment.html">products & equipment</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <img src="./images/icono0.png" alt="search" class="icon--image"> -->
+                    <input placeholder="search" style="width:150px;height:30px;
+                    margin:20px;border:none;font: 24px sanserif;outline:none;color:#009000"
+                     id="search">
+                </ul>
+            </div>    
+        </div>
+    </div>
+    <hr>
+
+    <header class="nav-container">
+        <div class="nav--bar">
+            <!-- <div class="img-logo">
+                <img src="images/datalogo1.png" alt="logo image not found ?">
+                <span>AgroMoni</span>
+            </div> -->
+            <h1 class="nav-bar--livestock">Learn LiveStock Farming.....</h1>
+            <ul class="nav--txt">
+                <li> <a href="index.html">home</a> <span> &raquo;</span></li>
+                <li> <a href="#LiveStock.html">livestock</a> </li>
+            </ul>
+        </div>
+    </header>
+<!--THIS SECTION IS FOR THE EBOOK ON THE HOME PAGE  -->
+<div class="hero--home">
+    <div class="home">
+        <h1 id="category-home">LiveStock Ebook </h1>
+        <ul class="home--listItem">
+            <div class="home--img0 card m-4">
+                <a href="./pdf/feed formulation.pdf">
+                    <img src="./images/chickFarm.jpg" alt="Chicken farm" width="200px">
+                </a>
+                <div class="card-body">
+                <li class="home--read"> 
+                    <p>Learn how to make your own poultry feed !!!</p>
+                    <a class="btn btn-success" href="./pdf/feed formulation.pdf">read more </a>
+                </li>
+                </div>
+            </div>
+        
+            <div class="home--img1 card m-4">
+                <a href="./pdf/A GUIDE TO ORGANIC LIVESTOCK FARMING.pdf">
+                    <img src="./images/EnyiOlobe.jpg" alt="Chicken farm" width="150px">
+                </a>
+                <div class="card-body">
+                <li class="home--read">
+                    <p>Download guide to organic livestock  pdf</p> 
+                    <a class="btn btn-success" href="./pdf/A GUIDE TO ORGANIC LIVESTOCK FARMING.pdf">
+                        read more
+                    </a>
+                 </li>
+                </div>
+            </div>
+
+            <div class="home--img2 card m-4">
+                <a href="./pdf/Maggot.pdf">
+                    <img src="./images/TigerNut.jpg" alt="Chicken farm" width="150px">
+                </a>
+                <div class="card-body">
+                <li class="home--read">
+                    <p>Learn maggot feed formulation</p>
+                     <a class="btn btn-success" href="./pdf/Maggot.pdf">read more</a>
+                </li>
+                </div>
+            </div>
+
+            <div class="home--img3 card m-4">
+                <a href="./pdf/ORGANIC POULTRY_training222.pdf">
+                <img src="./images/Scent leave.jpg" alt="Chicken farm" width="150px">
+                </a>
+                <div class="card-body">
+                <li class="home--read">
+                    <p>learn organic Poultry farming </p>
+                     <a class="btn btn-success" href="./pdf/ORGANIC POULTRY_training222.pdf">
+                        read more
+                    </a>
+                 </li>
+                </div>
+            </div>
+
+            <div class="home--img4 card m-4">
+                <a href="./pdf/STRUCTURAL BIOSECURITY.pdf">
+                <img src="./images/aspergillosis.jpg" alt="Chicken farm" width="150px">
+                </a>
+                <div class="card-body">
+                <li class="home--read">
+                    <h1 class="card-title">Biosecurity</h1>
+                    <p>learn structural biosecurity of farming</p>
+                     <a class="btn btn-success" href="./pdf/STRUCTURAL BIOSECURITY.pdf">
+                        read more
+                    </a>
+                 </li>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+</div>
+
+<!--///////////////////////////////////////
+THIS IS FOR THE COMMENT .................. 
+//////////////////////////////////////////-->
+<div class="ebook-textArea">
+<p>comments:</p>
+<textarea class="ebook--txtArea" style="height: 250px;" placeholder="Type here..."></textarea>
+</div>
+
+<div class="ebook--replyComment">
+<input type="text" placeholder="Name" class="text-nameInputComment1">
+<input type="email" placeholder="e-mail" class="text-email-InputComment2">
+<button class="ebook--button"> comment</button>
+</div>
+<!-- THIS IS THE COMMENT AREA FOR THOSE WHO WANT TO COMMENT ABOUT THE WEBSITE -->
+<div class="EBOOK--COMMENTS">
+<p class="EBOOK--COMMENTS2"> </p>
+</div>
+
+   <!-- THIS IS THE FOOTER AREAS -->
+   <footer class="footer-container">
+        <div class="footer">
+            <ul>
+                <a href="index.html"> <li>home</li> </a>
+                <a href="policy.html"> <li>policy</li> </a>
+                <a href="About.html"> <li>About us</li> </a>
+                <a href="contact.html"> <li>contact us</li> </a>
+            </ul>
+
+            <ul>
+                <a href="crops.html"> <li>crops</li> </a>
+                <a href="AgriBusiness.html"> <li> agriBusiness guide</li> </a>
+                <a href="healthTips.html"> <li> health tips</li> </a>
+                <a href="eBook.html"> <li> eBook</li> </a>
+                <a href="pets.html"> <li> pets</li> </a>
+                <a href="Events.html"> <li> event/opportunities</li> </a>
+                <a href="proEquipment.html"> <li> product and equipment</li> </a>
+            </ul>
+        
+            <ul>
+                <a href="Poultry.html"> <li>poultry</li> </a>
+                <a href="c_g_sheep.html"> <li>cattle,goat and sheep</li> </a>
+                <a href="pets.html"> <li>pets</li> </a>
+                <a href="#LiveStock.html"> <li>livestock</li> </a>
+                <a href="snail_rabbit.html"> <li>snail and rabbit</li> </a>
+                <a href="random_reading.html"> <li>random reading</li> </a>
+            </ul>
+        </div>
+        <p>copyright &copy; 2022-present AgroMoni | developed by ZeroSoftWare </p>
+    </footer>
+    
+</body>
+</html>
